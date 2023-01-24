@@ -15,7 +15,7 @@ module: {
                 {
                     loader: 'url-loader',
                     options: {
-                        limit:8,
+                        limit:8192,
                         name:'[name].[ext]',
                         outPath:'images'
                     }
