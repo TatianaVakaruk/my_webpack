@@ -17,7 +17,7 @@ module: {
                     options: {
                         limit:8192,
                         name:'[name].[ext]',
-                        outPath:'images'
+                        outputPath:'images'
                     }
                 }
             ]
