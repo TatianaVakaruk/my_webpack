@@ -1,7 +1,6 @@
 const  { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const webpackConfig = require('../task1/webpack.config');
 const webpack = require('webpack');
 module.exports = (env, argv)=>{
     const isProduction = argv.mode === 'production';
